@@ -1,0 +1,108 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOGEX 0, 0, 218, 122
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Max Exporter "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Export Option",IDC_STATIC_EXPORT,12,10,86,76
+    PUSHBUTTON      "OK",IDOK,38,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,118,93,50,14
+    CONTROL         "Export Mesh",IDC_CHECK_MESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,22,78,10
+    CONTROL         "Export Material",IDC_CHECK_MATERIAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,38,78,10
+    CONTROL         "Export Skeleton",IDC_CHECK_SKELETON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,54,78,10
+    CONTROL         "Export Animation",IDC_CHECK_ANIMATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,70,78,10
+    CONTROL         "Save XML File",IDC_CHECK_SAVEXML,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,111,72,79,10
+    EDITTEXT        IDC_EDIT_SCALE,168,18,35,14,ES_AUTOHSCROLL
+    LTEXT           "Mesh Scale:",IDC_STATIC_SCALE,111,20,52,8
+    GROUPBOX        "Other Option",IDC_STATIC_OTHER,106,10,105,76
+    CONTROL         "Vertex Normals",IDC_CHECK_NORMAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,111,48,79,10
+    CONTROL         "Vertex Colors",IDC_CHECK_COLOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,111,60,79,10
+    EDITTEXT        IDC_EDIT_SAMPLE,168,33,35,14,ES_AUTOHSCROLL
+    LTEXT           "Frames/Sample:",IDC_STATIC_SAMPLE,111,35,52,8
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
